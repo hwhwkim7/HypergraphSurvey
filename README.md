@@ -47,8 +47,9 @@
 ├── ex/
 │   ├── parameters/               # 예제 설정을 위한 paramter 세팅
 │   ├── results/                  # 예제 실행 후 결과 파일
-├── output/                       # coreness 저장되어있음 / 다른 실행 결과 파일은 모르겠고 가장 최근 파일은 running_result.csv로 추정됨
+├── output/                       # coreness 저장되어있음
 ```
+- 다른 실행 결과 파일은 모르겠고 가장 최근 파일은 running_result.csv로 추정됨
 - ../output/time.csv에 time이 저장되지 않은 coreness는 실제 coreness를 구하고, 저장되어있는 경우에는 저장된 coreness.csv + time.csv에 저장된 time 불러와서 return
 
 ## Arguments
