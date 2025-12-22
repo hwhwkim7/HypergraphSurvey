@@ -4,12 +4,6 @@
 ```
 .
 ├── code/
-│   ├── main.py       # Entry point for the program
-│   ├── func.py       # Core utilities for hypergraph processing, DCS computation, and statistics
-│   └── kscore.py     # Peeling algorithm implementation for (k, s)-core extraction
-├── datasets/         # Directory containing input .hyp hypergraph files
-└── output.csv        # Output log file generated after execution
-├── code/
 │   ├── ktruss/                   # hyper k-truss 원본 코드
 │   ├── nbr-kd-coreness/          # nbr-k-core, kd-core 원본 코드
 │   ├── data_parser.py            # https://www.cs.cornell.edu/~arb/data/ 에서 데이터 다운 이후 network.hyp 파일 생성
