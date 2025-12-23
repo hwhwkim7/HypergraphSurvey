@@ -52,7 +52,7 @@
 | `--algorithm`  | Algorithm to use (ex. 'kg') | 
 | `--mode`       | Mode (ex. 'param_select' / 'hyperedge_save') | 
 | `--network`    | Relative path to dataset inside `datasets/` (ex. 'real/contact') | 
-| `--k`          | Value of k (k-hypercore, nbr-k-core, kd-core, kt-hypercore,<br> kq-core, kg-core, kgp-core, ks-core, kab-truss, hyper k-truss) | 
+| `--k`          | Value of k (k-hypercore, nbr-k-core, kd-core, kt-hypercore,<br>kq-core, kg-core, kgp-core, ks-core, kab-truss, hyper k-truss) | 
 | `--s`          | Value of s (ks-core) | 
 | `--c`          | Value of c (ks-core) | 
 | `--g`          | Value of g (kg-core, kgp-core) | 
@@ -66,3 +66,7 @@
 | `--out`        | Value of out (k_{in}k_{out}-truss) | 
 | `--output`     | Output path (ex. '../output/running_results.csv') | 
 
+## Example Usage
+```
+python main.py --network real/congress --algorithm k_hypercore --k 6 --mode param_select --output ../output/running_result.csv
+```
